@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calculator">
+        <input type="text" id="Display" readonly>
+        <div id="keys">
+            <button onclick="ClearDisplay()" class="mainBtn">C</button>
+            <button onclick="AppendToCalc('+')" class="mainBtn">+</button>
+            <button onclick="AppendToCalc('%')" class="mainBtn">%</button>
+            <button onclick="AppendToCalc('/')" class="mainBtn">/</button>
+            <button onclick="AppendToCalc('7')">7</button>
+            <button onclick="AppendToCalc('8')">8</button>
+            <button onclick="AppendToCalc('9')">9</button>
+            <button onclick="AppendToCalc('*')" class="mainBtn">x</button>
+            <button onclick="AppendToCalc('4')">4</button>
+            <button onclick="AppendToCalc('5')">5</button>
+            <button onclick="AppendToCalc('6')">6</button>
+            <button onclick="AppendToCalc('-')" class="mainBtn">-</button>
+            <button onclick="AppendToCalc('1')">1</button>
+            <button onclick="AppendToCalc('2')">2</button>
+            <button onclick="AppendToCalc('3')">3</button>
+            <button onclick="AppendToCalc('+')" class="mainBtn">+</button>
+            <button onclick="AppendToCalc('0')">0</button>
+            <button onclick="AppendToCalc('00')">00</button>
+            <button onclick="AppendToCalc('.')">.</button>
+            <button onclick="Calculate()" class="mainBtn">=</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
